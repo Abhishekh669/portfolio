@@ -84,7 +84,7 @@ function SkillPage() {
     >
       <div className="w-full max-w-7xl mx-auto ">
         <div className=" mb-16 px-6 ">
-          <h2 className="text-4xl md:text-5xl font-bold  mb-4 lg:pl-10">
+          <h2 className="text-4xl md:text-5xl font-bold  mb-4 lg:pl-10 text-white">
             My <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Skills</span>
             <div className="flex items-center justify-start gap-2 mt-4 ">
             <div className="h-px w-20 bg-linear-to-r from-transparent to-blue-600" />
@@ -101,7 +101,7 @@ function SkillPage() {
               <div className="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                 <span className="text-2xl">🎨</span>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-white">
                 Frontend Development
               </h3>
             </div>
@@ -114,10 +114,10 @@ function SkillPage() {
 
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-xl bg-green-900/30 flex items-center justify-center">
                 <span className="text-2xl">⚙️</span>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-white">
                 Backend Development
               </h3>
             </div>
@@ -130,10 +130,10 @@ function SkillPage() {
 
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-xl bg-purple-900/30 flex items-center justify-center">
                 <span className="text-2xl">🗄️</span>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-white">
                 Database & Storage
               </h3>
             </div>
@@ -149,7 +149,7 @@ function SkillPage() {
               <div className="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
                 <span className="text-2xl">🛠️</span>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-white">
                 Tools & DevOps
               </h3>
             </div>

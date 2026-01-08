@@ -9,7 +9,7 @@ export default function AboutSection() {
       className="  w-full min-h-screen bg-sidebarbg  px-10 py-10 space-y-10 flex justify-center items-center"
     >
       <div className=" bg-sidebarbg ">
-        <h2 className="text-4xl font-bold my-8  ">
+        <h2 className="text-4xl font-bold my-8 text-white  ">
           About <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Me</span>
            <div className="flex items-center justify-start gap-2 mt-4 ">
             <div className="h-px w-20 bg-linear-to-r from-transparent to-blue-600" />

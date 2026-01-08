@@ -39,7 +39,7 @@ function ProjectCard({ project }: { project: ProjectListType }) {
 
       {/* CONTENT */}
       <div className="relative p-5 pt-4 flex flex-col">
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-500 transition">
+        <h3 className="text-lg font-semibold text-white group-hover:text-blue-500 transition">
           {project.name}
         </h3>
 
@@ -54,7 +54,7 @@ function ProjectCard({ project }: { project: ProjectListType }) {
           ))}
         </div>
 
-        <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-3">
+        <p className="mt-3 text-sm text-gray-400 leading-relaxed line-clamp-3">
           {project.description}
         </p>
 
@@ -65,10 +65,9 @@ function ProjectCard({ project }: { project: ProjectListType }) {
             target={hasLive ? "_blank" : undefined}
             rel={hasLive ? "noopener noreferrer" : undefined}
             className={`flex-1 inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition
-              ${
-                hasLive
-                  ? "bg-blue-600 text-white hover:bg-blue-700"
-                  : "bg-blue-600/30 text-blue-200 cursor-not-allowed"
+              ${hasLive
+                ? "bg-blue-600 text-white hover:bg-blue-700"
+                : "bg-blue-600/30 text-blue-200 cursor-not-allowed"
               }
             `}
           >
@@ -81,10 +80,9 @@ function ProjectCard({ project }: { project: ProjectListType }) {
             target={hasGithub ? "_blank" : undefined}
             rel={hasGithub ? "noopener noreferrer" : undefined}
             className={`flex-1 inline-flex items-center justify-center gap-2 rounded-md border px-4 py-2 text-sm font-medium transition
-              ${
-                hasGithub
-                  ? "border-gray-300/30 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-gray-400/60"
-                  : "border-gray-300/20 dark:border-gray-600/40 text-gray-400 cursor-not-allowed"
+              ${hasGithub
+                ? "border-gray-600 text-gray-300 hover:border-gray-400/60"
+                : "border-gray-600/40 text-gray-400 cursor-not-allowed"
               }
             `}
           >
