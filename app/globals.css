@@ -43,6 +43,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: var(--sidebarbg);
 

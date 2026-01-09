@@ -40,18 +40,15 @@ function HeroSection() {
             Full-Stack Developer • Tech Enthusiast
           </p>
 
-          <button className=" group relative overflow-hidden my-6 px-10 py-4 rounded-md font-semibold text-white border border-blue-600 transition-all duration-300"
+          <a href='/Abhishekh_Nepali_CV3.pdf'  download className=" group relative overflow-hidden my-6 px-10 py-4 rounded-md font-semibold text-white border border-blue-600 transition-all duration-300"
           >
             <span
               className=" absolute inset-0 bg-linear-to-r from-blue-600 to-purple-600 -translate-x-full transition-transform duration-1500 ease-in-out group-hover:translate-x-0"></span>
             <span
               className=" relative z-10 transition-colors duration-500 group-hover:text-black">
-              Visit My Work
+              Download CV
             </span>
-          </button>
-
-
-
+          </a>
         </div>
 
       </div>
